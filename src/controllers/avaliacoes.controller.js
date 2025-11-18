@@ -1,8 +1,5 @@
 import { db } from "../config/db.js";
 
-// ============================
-// LISTAR AVALIAÇÕES
-// ============================
 export const listarAvaliacoes = async (req, res) => {
   try {
     const sql = `
